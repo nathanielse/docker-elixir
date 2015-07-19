@@ -4,6 +4,8 @@ MAINTAINER nathaniel_se
 
 ENV DEBIAN_FRONTEND noninteractive
 
+ENV LANG C.UTF-8
+
 RUN apt-get update && \
     apt-get install -y \
       ca-certificates \
